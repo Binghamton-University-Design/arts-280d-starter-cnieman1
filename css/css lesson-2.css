@@ -1,0 +1,66 @@
+/*stylesheet*/
+
+/*comments! wohoo!*/
+body{
+	background-image: url('../images/clothes.jpg');
+	background-size:1500px 300px;
+	background-repeat: no-repeat;
+	background-color: #ADFFE9;
+	color: #000
+	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+#wrapper {
+	margin: 3em auto;
+	max-width:960px;
+	padding: 0 20px; 
+}
+
+.article {
+	padding: 40px 20px 20px 20px;
+	background-color: #fff;
+}
+
+img{
+	display:block;
+	width:100%;
+	height:auto;
+	margin: 40px 0;
+}
+
+h1,h3,p{
+	margin-left: 20px;
+	margin-right:20px;
+}
+
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	margin-top:0;
+}
+
+h3{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+}
+p{
+	font-weight:300;
+	line-height:1.6;
+}
+
+p.byline{
+color:grey;
+font-size:14px;
+}
+
+.article a{
+	color:#0AFFBE;
+  text-decoration: none;
+}
+
+a:hover {
+	color:#008F6B;
+	text-decoration:underline;
+}
