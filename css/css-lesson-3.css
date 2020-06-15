@@ -1,0 +1,43 @@
+/*stylesheet*/
+
+/*comments! wohoo!*/
+body{
+	background-color: #ADFFE9;
+	color: #000
+	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+	margin: 3em auto;
+	max-width:960px;
+	padding: 0 20px; 
+}
+
+.article {
+	padding: 40px 20px 20px 20px;
+	background-color: #fff;
+}
+
+
+.article div {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	background-color:rgba(0,0,0,0.1);
+}
+
+.box{
+	float: right;
+	width: 300px;
+	border: solid blue 3px;
+	padding: 10px;
+	margin: 20px;
+}
+
+.altbox{
+	box-sizing: border-box;
+	border: solid red 3px;
+	padding: 10px;
+	margin: 20px;
+}
