@@ -120,6 +120,10 @@ h4{
 }
 
 /*DROPDOWN*/ 
+.dropdown{
+	display:inline-block;
+	margin-right: 2rem;
+}
 
 .dropdown-content {
   display: none;
