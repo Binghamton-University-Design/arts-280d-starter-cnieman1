@@ -1,6 +1,6 @@
 /* vars */
 :root {
-  --background-color: #f6fff8;
+  --background-color: #DEF5F7; 
   --body-color: #000;
 }
 
@@ -69,6 +69,8 @@ h4{
 	width: auto;
 }*/
 
+
+
 /*NAVIGATION*/
 
 
@@ -130,6 +132,7 @@ h4{
 
 .dropdown:hover .dropdown-content {
 	display: block;
+	background-color:#BCE9F0;
 }
 
 .dropdown:hover, .dropbtn, .dropdown-content a:hover{
