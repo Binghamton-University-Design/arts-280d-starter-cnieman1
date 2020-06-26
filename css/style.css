@@ -218,10 +218,16 @@ h4{
 
 /* work section*/
 
-#work h3, #writing h3{
+#work h3, #writing h3, #portfolio h3{
 	letter-spacing:1px;
 	margin-bottom:2rem;
 }
+
+#work h3 a, #writing h3 a, #portfolio h3 a{
+	color: var(--body-color);
+	text-decoration-color: transparent;
+}
+
 .work-item{
 	overflow:hidden;
 	height:0;
@@ -297,6 +303,46 @@ h4{
 	color: var(--body-color);
 	text-decoration-color: var(--body-color);
 }
+
+/* PORTFOLIO*/
+
+#portfolio{
+	margin-top:2rem;
+}
+
+#portfolio .work-item{
+	padding-top: calc((9/16)*100%);
+}
+
+#portfolio .work-item .inner .work-inside {
+	opacity:1;
+}
+
+#portfolio p a{
+	color: var(--body-color);
+	text-decoration-color: var(--body-color);
+	transition: text-decoration-color .3s ease-in-out;
+}
+
+#portfolio p a:hover{
+	text-decoration-color: transparent;
+}
+
+.blurb p a{ 
+	color: var(--body-color)
+	/* tried to add this but it isn't working!!!
+
+	text-decoration-color: transparent; 
+	transition:text-decoration-color .3s ease-in-out;
+ }
+
+ .blurb p a:hover{
+ 	text-decoration-color:var(--body-color);
+ }
+ */
+
+
+/*FOOTER*/
 
 #footer{
 	text-align:right;
