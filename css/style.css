@@ -39,7 +39,7 @@ h3{
 }
 
 h4{
-	font-size:1rem;
+	font-size:1.2rem;
 }
 
 #wrapper{ 
@@ -407,17 +407,21 @@ button {
 
 .blurb p a{ 
 	color: var(--body-color);
+	padding-top: 2rem;
 }
-	/* tried to add this but it isn't working!!!
-
+	/* 
 	text-decoration-color: transparent; 
 	transition:text-decoration-color .3s ease-in-out;
- }
 
  .blurb p a:hover{
  	text-decoration-color:var(--body-color);
  }
  */
+
+ .single-item img{
+ 	padding:0px;
+ 	margin:0px;
+ }
 
 
 /*FOOTER*/
