@@ -308,6 +308,10 @@ button {
   text-align: right;
 }
 
+.work-item .inner .work-inside p {
+	font-size: 16px;
+}
+
 .work-item .inner:hover .work-inside {
   opacity: 1;
 }
