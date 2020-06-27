@@ -17,6 +17,10 @@
 	grid-row: span 3;
 }
 
+.height-4{
+  grid-row:span 4;
+}
+
 /* M O B I L E */
 
 .width-1-12-m {
